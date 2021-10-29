@@ -1,0 +1,198 @@
+
+
+
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+#navbar navbar-dark{
+    background-color: red;;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 2000px;
+    height: 650px; 
+  }
+
+  
+
+  #carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item{
+      height: 90vh;
+  }
+
+  
+
+ .container-fluid{
+     padding: 0;
+ }
+
+ #carouselExampleCaptions .carousel-caption {
+     top: 30%;
+ }
+
+ #carouselExampleCaptions .carousel-caption h2{
+     font-size: 50px;
+     margin-bottom: 30px;
+ }
+
+ #carouselExampleCaptions .carousel-caption p{
+     font-size: 22px;
+     font-weight: 300;
+     margin-bottom: 100px;
+     color: #fff;
+    
+
+ }
+
+ .main-btn{
+     background-color: rgb(0, 0, 0);
+     color: #fff;
+     text-transform: uppercase;
+     width: 200px;
+     height: 60px;
+     padding:  10px 20px;
+     border-radius: 30px;
+     border: 3px solid transparent;
+     transition: .5s;
+ }
+
+ .main-btn:hover{
+     background-color: rgb(218, 4, 4);
+     text-decoration: none;
+     color: #fff;
+     border-color: rgb(212, 226, 7);
+ }
+
+ .carousel-indicators .active {
+     background-color: rgb(218, 4, 4);
+
+ }
+
+ .carousel h5 {
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+    text-transform: uppercase;
+   
+ }
+
+ .carousel-caption p{
+    color: white;
+    text-shadow: 2px 2px  black;
+    font-size: 50px;
+    text-transform: uppercase;
+   
+
+}
+
+.navbar-brand a{
+    color: black;
+}
+
+body {
+    font-family: Marker Felt, fantasy;
+    
+  }
+
+  #titulos.col-10 h1 {
+    padding-top: 7%;
+    color: #e40000;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 58px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#textos p{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+#textos h2{
+    text-transform: uppercase;
+}
+
+.card-body .btn:hover{
+    background-color: black;
+}
+
+#titulosT.col-10 h1 {
+    padding-top: 8%;
+    color: #e40000;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 58px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: -2px 4px #fff;
+    
+    
+}
+
+#banner.row{
+    background-image: url(/imagem/background.png);
+ 
+    
+}
+
+#bannerT.row{
+    background-image: url(/imagem/background1.png);
+   
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#branco{
+    background-color: rgb(255, 255, 255);
+    background-image: url(/imagem/background.png);
+   
+}
+
+
+
+#titulos{
+    margin: 4px solid red;
+    padding: 4px solid red;
+}
+
+#titulos.col-10 h1{
+    padding-top: 8%;
+    color: #e40000;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 58px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: 6px -2px #fff;
+}
+
+
+#branco.row{
+    background-color: #fff;
+   
+}
+
+
+
+.card-body p{
+    text-transform: uppercase;
+}
+
+.row{
+    padding: 3vh;
+}
+
